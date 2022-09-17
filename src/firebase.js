@@ -8,12 +8,12 @@ import {
 import { getFirestore, doc, getDoc, setDoc } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDQ1ANjX_Ue7doSKPtoswO3ojvHuGntiOU",
-  authDomain: "shoping-cart-40d15.firebaseapp.com",
-  projectId: "shoping-cart-40d15",
-  storageBucket: "shoping-cart-40d15.appspot.com",
-  messagingSenderId: "259387147308",
-  appId: "1:259387147308:web:48fecd6610c832a83fbd89",
+  apiKey: "apikey",
+  authDomain: "authDomain",
+  projectId: "projectId",
+  storageBucket: "storageBucket",
+  messagingSenderId: "messagingSenderId",
+  appId: "appId",
 };
 
 const app = initializeApp(firebaseConfig);
