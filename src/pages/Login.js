@@ -24,7 +24,7 @@ const Login = () => {
       type: "LOGIN",
       payload: response.user,
     });
-    enqueueSnackbar("You have successfully logged in", {
+    enqueueSnackbar("You have successfully loggin in", {
       variant: "success",
       autoHideDuration: 3000,
     });
